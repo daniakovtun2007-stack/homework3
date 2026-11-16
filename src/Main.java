@@ -1,9 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Box box1 = new Box();
-        box1.width= 100;
-        box1.height= 50;
-        box1.length= 100;
+        Box box1 = new Box(100, 50, 200);
         System.out.println(box1);
         System.out.println(box1.getVolume());
 
