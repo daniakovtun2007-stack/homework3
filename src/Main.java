@@ -9,9 +9,9 @@ public class Main {
 
         Box box2 = new Box();
 
-        box2.width = 50;
-        box2.height = 50;
-        box2.length = 50;
+        box2.setWidth(50);
+        box2.setHeight(50);
+        box2.setLength(50);
 
         System.out.println(box2);
         System.out.println(box2.getVolume());
