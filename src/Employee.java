@@ -18,4 +18,7 @@ public class Employee {
     public void setDepartment(String department) {
         this.department = department;
     }
+    public String toString() {
+        return "Employee{" + "id=" + id + ", department=" + department + '}';
+    }
 }
